@@ -4,7 +4,7 @@ import { Server } from 'socket.io';
 import { createServer as createViteServer } from 'vite';
 import path from 'path';
 import cors from 'cors';
-import { CARDS, RECIPES } from './src/shared/cards.js';
+import { CARDS, RECIPES } from './src/shared/cards.ts';
 
 async function startServer() {
   const app = express();
